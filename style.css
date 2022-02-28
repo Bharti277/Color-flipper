@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: aliceblue;
+  display: grid;
+  align-items: center;
+  height: 2.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.nav-items{
+  display: flex;
+  align-items: center;
+  width: 90vw;
+  max-width: 620px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.nav-items h1{
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: rgb(87, 123, 224);
+}
+.nav-items h1:hover{
+  cursor: pointer;
+}
+.nav-items ul{
+  display: flex;
+  list-style-type: none;
+}
+.nav-links{
+  display: flex;
+}
+.nav-links li{
+  display: list-item;
+}
+.nav-links a{
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 8px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.nav-links a:hover{
+  color: rgb(102, 161, 228);
+  cursor: pointer;
+}
+main{
+  min-height: calc(100vh - 2.5rem );
+  display: grid;
+  place-items: center;
+}
+.main{
+  text-align: center;
+}
+.main h2{
+  background-color: #222;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  text-transform: capitalize;
+  letter-spacing: 2.6px;
+  font-weight: 700;
+}
+.main h2 span{
+  margin: 0;
+  padding: 0;
+}
+.main .btn{
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+}
+.main .btn:hover{
+  color: white;
+  background-color: #222;
+  transition: all 0.3s linear;
+}
